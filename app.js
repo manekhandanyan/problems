@@ -9,7 +9,7 @@ const firstProblemInstance =  new FirstProblem();
 const secondProblemInstance =  new SecondProblem();
 const thirdProblemInstance = new ThirdProblem();
 const fourthProblemInstance = new FourthProblem();
-firstProblemInstance.compareMostAndLeastSignificantBytes(0);
+firstProblemInstance.compareMostAndLeastSignificantBits(5);
 secondProblemInstance.printFunction('Here is an %s string %d you', 4, 'awesome');
 thirdProblemInstance.findIndexOf('awesome', 'e')
 fourthProblemInstance.splitBy('hi.there.', ".")
